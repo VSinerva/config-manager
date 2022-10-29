@@ -337,7 +337,7 @@ exec --no-startup-id solaar
 exec autorandr --change
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b
 exec --no-startup-id redshift-gtk
-exec --no-startup-id terminal
+exec --no-startup-id setxkbmap fi
 exec --no-startup-id /usr/NX/bin/nxplayer
 
 # Color palette used for the terminal ( ~/.Xresources file )
