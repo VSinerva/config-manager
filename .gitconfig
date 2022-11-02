@@ -1,0 +1,12 @@
+[user]
+	email = vili.m.sinerva@gmail.com
+	name = Vili Sinervä
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[merge]
+	ff = false
+[pull]
+	ff = only
