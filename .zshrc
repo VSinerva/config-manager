@@ -219,3 +219,5 @@ if [ -f "${SSH_ENV}" ]; then
 else
     start_agent;
 fi
+
+export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
